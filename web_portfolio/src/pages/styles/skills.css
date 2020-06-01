@@ -1,0 +1,21 @@
+.progressforstyle{
+    width:55%;
+}
+
+.progresscol{
+    height:30px;
+    
+}
+
+h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skillscontainer{
+    margin-top: 5%;
+}
+.skill-icon{
+   height: 100px;
+   font-size: 100px;
+}
