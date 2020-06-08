@@ -1,11 +1,11 @@
 h1 {
-    color: black;
+    color: #111111;
     font-family: 'Roboto', sans-serif;
 
 }
 
 .name{
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 text {
@@ -15,7 +15,8 @@ text {
 }
 
 .text-area{
-    margin-top: 80px;
+    margin-top: 20px;
+    color: #111111;
 }
 .social-media {
     padding:40px 0;
@@ -42,5 +43,27 @@ text {
 }
 
 .icons-contact{
-    margin-top: 80px;
+    margin-top: 20px;
+}
+
+.colfoto .foto{
+    text-align: center;
+}
+
+.colfoto .foto img{
+    width: 250px;
+    height: 250px;
+}
+
+.colfoto{
+    margin-top: 20px;
+}
+
+.container{
+
+   
+}
+
+.contenedor-principal{
+    
 }

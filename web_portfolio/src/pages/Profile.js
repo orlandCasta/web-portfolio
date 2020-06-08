@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import '../pages/styles/profile.css';
+import photo from '../images/my_photo.jpg';
+import Background from '../images/Louane_S1.jpg';
 
 // libraries for awesome font icons
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -12,12 +14,18 @@ class Profile extends React.Component{
         return(
         <div>
             <Navbar/>
+            <div className="contenedor-principal">
             <div className="container">
+                <div className="row colfoto">
+                    <div className="col foto">
+                        <img src={photo} className="rounded-circle img-fluid" alt=""></img>
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col">
-                    <div className="name">
-                    <h1 class="display-3 text-center">Orlando Castañeda</h1>
-                    </div>
+                        <div className="name">
+                            <h1 class="display-3 text-center myname">Orlando Castañeda</h1>
+                        </div>
                     </div>
                 </div>
                 <div className="text-area">
@@ -42,6 +50,7 @@ class Profile extends React.Component{
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         )
     }

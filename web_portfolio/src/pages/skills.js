@@ -31,9 +31,75 @@ class Skills extends React.Component{
                         </div>
                     </div>
                     <div className="skillscontainer">
-                        <div className="row">
-                            <div className="col-2 skilliconcontainer justify-content-center">
+                        <div className="row align-items-center filas">
+                            <div className="col-2 skilliconcontainer">
                                 <i className="skill-icon"><FontAwesomeIcon icon={faHtml5}/></i>
+                            </div>
+                            <div className="col-8">
+                                <div className="progresscol">
+                                    <div class="progress-bar bg-inverse progressforstyle" role="progressbar">55%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row align-items-center filas">
+                            <div className="col-2 skilliconcontainer">
+                                <i className="skill-icon"><FontAwesomeIcon icon={faReact}/></i>
+                            </div>
+                            <div className="col-8">
+                                <div className="progresscol">
+                                    <div class="progress-bar bg-inverse progressforstyle" role="progressbar">55%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row align-items-center filas">
+                            <div className="col-2 skilliconcontainer">
+                                <i className="skill-icon"><FontAwesomeIcon icon={faCss3}/></i>
+                            </div>
+                            <div className="col-8">
+                                <div className="progresscol">
+                                    <div class="progress-bar bg-inverse progressforstyle" role="progressbar">55%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row align-items-center filas">
+                            <div className="col-2 skilliconcontainer">
+                                <i className="skill-icon"><FontAwesomeIcon icon={faPython}/></i>
+                            </div>
+                            <div className="col-8">
+                                <div className="progresscol">
+                                    <div class="progress-bar bg-inverse progressforstyle" role="progressbar">55%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row align-items-center filas">
+                            <div className="col-2 skilliconcontainer">
+                                <i className="skill-icon"><FontAwesomeIcon icon={faJsSquare}/></i>
+                            </div>
+                            <div className="col-8">
+                                <div className="progresscol">
+                                    <div class="progress-bar bg-inverse progressforstyle" role="progressbar">55%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row align-items-center filas">
+                            <div className="col-2 skilliconcontainer">
+                                <i className="skill-icon"><FontAwesomeIcon icon={faBootstrap}/></i>
+                            </div>
+                            <div className="col-8">
+                                <div className="progresscol">
+                                    <div class="progress-bar bg-inverse progressforstyle" role="progressbar">55%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row align-items-center filas">
+                            <div className="col-2 skilliconcontainer icon-djando">
+                                <i className="skill-icon">Django</i>
                             </div>
                             <div className="col-8">
                                 <div className="progresscol">
