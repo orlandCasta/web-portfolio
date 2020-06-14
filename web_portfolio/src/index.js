@@ -6,8 +6,9 @@ and dom of the appendchill */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Profile from './pages/Profile';
-import Skills from './pages/skills';
+import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import Tutorials from './pages/Tutorials';
 
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
@@ -19,4 +20,4 @@ import 'bootstrap/dist/css/bootstrap.css';
 const container = document.getElementById('app')
 
 //ReactDOM(__what__,__where);
-ReactDOM.render(<Projects/>,container);
+ReactDOM.render(<Tutorials/>,container);
