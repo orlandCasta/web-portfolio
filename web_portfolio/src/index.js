@@ -9,6 +9,7 @@ import Profile from './pages/Profile';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Tutorials from './pages/Tutorials';
+import Contact from './pages/Contact';
 
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
@@ -20,4 +21,4 @@ import 'bootstrap/dist/css/bootstrap.css';
 const container = document.getElementById('app')
 
 //ReactDOM(__what__,__where);
-ReactDOM.render(<Tutorials/>,container);
+ReactDOM.render(<Contact/>,container);
