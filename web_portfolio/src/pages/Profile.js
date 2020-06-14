@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import '../pages/styles/profile.css';
 import photo from '../images/my_photo.jpg';
-import Background from '../images/Louane_S1.jpg';
 
 // libraries for awesome font icons
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'

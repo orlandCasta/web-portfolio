@@ -14,8 +14,8 @@ class Skills extends React.Component{
                 <Navbar/>
                 <div className="container">
                     <div className="row">
-                        <div className="col text-center">
-                            <div className="name">
+                        <div className="col">
+                            <div className="name text-center">
                                 <h1>My Skills</h1>
                             </div>
                         </div>
