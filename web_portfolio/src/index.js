@@ -3,6 +3,8 @@
 
 /*These two libraries work together, react is the analog of the create element 
 and dom of the appendchill */
+
+import App from './components/App';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Profile from './pages/Profile';
@@ -21,4 +23,4 @@ import 'bootstrap/dist/css/bootstrap.css';
 const container = document.getElementById('app')
 
 //ReactDOM(__what__,__where);
-ReactDOM.render(<Contact/>,container);
+ReactDOM.render(<App/>,container);

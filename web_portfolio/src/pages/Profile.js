@@ -31,7 +31,7 @@ class Profile extends React.Component{
                 <div className="row text-justify">
                     <div className="col">
                         <text>
-                        Hello, my name is Orlando Castañeda, I am a computer engineer with a great passion for programming and technology in general, I develop web and mobile applications, implementing the use of different framewroks and programming languages such as python, django, react and many more.
+                            Hello, my name is Orlando Castañeda, I am a computer engineer with a great passion for programming and technology in general, I develop web and mobile applications, implementing the use of different framewroks and programming languages such as python, django, react and many more.
                         </text>
                     </div>
                 </div>
